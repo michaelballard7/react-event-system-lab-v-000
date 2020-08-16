@@ -5,6 +5,6 @@ function EyesOnMe(){
 
 
     return (
-        <button onFocus={()=>console.log('Good!')}> </button>
+        <button onFocus={()=>console.log('Good!')} onBlur={console.log('Hey! Eyes on me!')}> </button>
     )
 }
