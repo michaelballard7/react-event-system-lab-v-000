@@ -8,5 +8,4 @@ function Keypad(){
     )
 }
 
-
 export default Keypad;
