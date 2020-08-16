@@ -3,7 +3,7 @@ import React from 'react'
 
 function Keypad(){
     return(
-        <input type="password" onKeyUP={()=>console.log('Entering password...')} />
+        <input type="password" onKeyUp={()=>console.log('Entering password...')} />
     )
 }
 
